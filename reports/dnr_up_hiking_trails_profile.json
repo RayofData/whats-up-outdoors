@@ -1,0 +1,91 @@
+{
+  "source": "https://gisagodnr.state.mi.us/arcgis/rest/services/DNR/DNRTrailsOPENDATA/MapServer/2",
+  "where_clause": "Peninsula = 'Upper Peninsula'",
+  "expected_record_count": 2439,
+  "downloaded_record_count": 2439,
+  "counts_match": true,
+  "column_count": 18,
+  "columns": [
+    "OBJECTID",
+    "TrailNamePrimary",
+    "HikingName",
+    "FacilityName",
+    "County",
+    "Peninsula",
+    "Hiking",
+    "TrailApprovalStatus",
+    "OpenClosedStatusNonmotor",
+    "SurfaceType",
+    "ADAAccessible",
+    "SegmentLengthMiles",
+    "SpecialRestrictionType",
+    "TrailAdministrator",
+    "RecreationSearchFacilityID",
+    "RecreationSearchTrailID",
+    "last_edited_date",
+    "geometry"
+  ],
+  "crs": "EPSG:4326",
+  "geometry_types": {
+    "LineString": 2425,
+    "MultiLineString": 14
+  },
+  "missing_geometry_count": 0,
+  "empty_geometry_count": 0,
+  "invalid_geometry_count": 0,
+  "duplicate_object_id_count": 0,
+  "missing_values": {
+    "OBJECTID": 0,
+    "TrailNamePrimary": 0,
+    "HikingName": 0,
+    "FacilityName": 0,
+    "County": 0,
+    "Peninsula": 0,
+    "Hiking": 0,
+    "TrailApprovalStatus": 0,
+    "OpenClosedStatusNonmotor": 0,
+    "SurfaceType": 0,
+    "ADAAccessible": 0,
+    "SegmentLengthMiles": 0,
+    "SpecialRestrictionType": 0,
+    "TrailAdministrator": 0,
+    "RecreationSearchFacilityID": 0,
+    "RecreationSearchTrailID": 0,
+    "last_edited_date": 0
+  },
+  "distinct_filter_values": {
+    "Peninsula": [
+      "Upper Peninsula"
+    ],
+    "Hiking": [
+      "Hiking"
+    ],
+    "TrailApprovalStatus": [
+      "Approved"
+    ],
+    "OpenClosedStatusNonmotor": [
+      "Open",
+      "Temporarily Closed",
+      "Temporarily Closed Due To Bridge Maintenance Or Repair",
+      "Temporarily Closed Due To Trail Washout"
+    ],
+    "SurfaceType": [
+      "-1",
+      "Asphalt",
+      "Boardwalk",
+      "Bridge",
+      "Concrete",
+      "Crushed Limestone",
+      "Dirt Natural",
+      "Grass Turf",
+      "Gravel",
+      "Rock Bedrock",
+      "Stairs"
+    ],
+    "ADAAccessible": [
+      "-99",
+      "ADA Accessible",
+      "Not Accessible"
+    ]
+  }
+}

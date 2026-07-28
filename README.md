@@ -1,3 +1,5 @@
+![What's UP Outdoors banner](assets/banner.png)
+
 # What’s UP Outdoors: Upper Peninsula Trail Explorer
 
 What’s UP Outdoors is a Python and Streamlit application for finding hiking trails and nearby nature observations in Michigan’s Upper Peninsula.

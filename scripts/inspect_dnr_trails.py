@@ -7,8 +7,6 @@ from typing import Any
 import geopandas as gpd
 import requests
 
-print("Starting DNR trail inspection script...")
-
 LAYER_URL = (
     "https://gisagodnr.state.mi.us/arcgis/rest/services/"
     "DNR/DNRTrailsOPENDATA/MapServer/2"
