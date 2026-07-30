@@ -1,3 +1,5 @@
+certifi
 geopandas
+matplotlib
 pyarrow
 requests
