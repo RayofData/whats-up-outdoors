@@ -1,11 +1,11 @@
-from __future__ import annotations
+from __future__ import annotations  # Deferred annotations
 
-import json
-from pathlib import Path
-from typing import Any, Iterator, Sequence
+import json  # JSON data
+from pathlib import Path  # File paths
+from typing import Any, Iterator, Sequence  # Type hints
 
-import geopandas as gpd
-import requests
+import geopandas as gpd  # Geospatial data
+import requests  # HTTP requests
 
 
 LAYER_URL = (

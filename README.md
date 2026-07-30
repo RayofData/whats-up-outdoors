@@ -20,7 +20,7 @@ Users will be able to enter a destination ZIP code, choose a search radius, and 
 
 ## Trail Length Categories
 
-- **Easy:** 2 miles or less
+- **Short:** 2 miles or less
 - **Medium:** More than 2 miles and up to 7 miles
 - **Long:** More than 7 miles
 
@@ -56,8 +56,7 @@ Setup instructions will be added as the project is developed.
 - ZIP-code distances are approximate and are measured from the ZIP-code center.
 - iNaturalist data represents recorded observations, not the probability of seeing a species.
 - Trail length categories do not account for elevation, terrain, or current trail conditions.
-- Dog-access information is not included in the MVP.
 
 ## Future Plans
 
-A later version may include weather forecasts, explainable trail rankings, and an AI assistant that explains nearby observations and recommendation scores.
+A later version may include weather forecasts, explainable trail rankings, and an AI assistant that explains nearby observations and trail features.

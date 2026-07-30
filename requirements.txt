@@ -1,5 +1,9 @@
 certifi
 geopandas
 matplotlib
+pandas
+pgeocode
 pyarrow
 requests
+shapely
+streamlit
