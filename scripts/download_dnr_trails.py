@@ -25,6 +25,7 @@ PROFILE_PATH = REPORT_DIR / "dnr_up_hiking_trails_profile.json"
 
 DOWNLOAD_FIELDS = [
     "OBJECTID",
+    "DNRTrail",
     "TrailNamePrimary",
     "HikingName",
     "FacilityName",
@@ -32,8 +33,10 @@ DOWNLOAD_FIELDS = [
     "Peninsula",
     "Hiking",
     "TrailApprovalStatus",
+    "TrailUseCategory",
     "OpenClosedStatusNonmotor",
     "SurfaceType",
+    "TrailWidthFeet",
     "ADAAccessible",
     "SegmentLengthMiles",
     "SpecialRestrictionType",
@@ -182,10 +185,12 @@ def build_profile(
     distinct_values = {}
 
     categorical_fields = [
+        "DNRTrail",
         "Peninsula",
         "Hiking",
         "TrailApprovalStatus",
         "OpenClosedStatusNonmotor",
+        "TrailUseCategory",
         "SurfaceType",
         "ADAAccessible",
     ]
