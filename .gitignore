@@ -12,3 +12,9 @@ data/processed/*
 # Keep empty data folders in Git
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environment variables
+.env

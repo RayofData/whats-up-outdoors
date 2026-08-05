@@ -267,6 +267,12 @@ def validate_download(
     if trails.geometry.is_empty.any():
         raise RuntimeError("One or more records have empty geometry.")
 
+    if not trails.geometry.is_valid.all():
+        invalid_count = int((~trails.geometry.is_valid).sum())
+        raise RuntimeError(
+            f"Found {invalid_count} records with invalid geometry."
+        )
+
     peninsula_values = set(trails["Peninsula"].dropna().astype(str))
 
     if peninsula_values != {"Upper Peninsula"}:

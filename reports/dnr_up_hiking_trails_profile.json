@@ -4,9 +4,10 @@
   "expected_record_count": 2439,
   "downloaded_record_count": 2439,
   "counts_match": true,
-  "column_count": 18,
+  "column_count": 21,
   "columns": [
     "OBJECTID",
+    "DNRTrail",
     "TrailNamePrimary",
     "HikingName",
     "FacilityName",
@@ -14,8 +15,10 @@
     "Peninsula",
     "Hiking",
     "TrailApprovalStatus",
+    "TrailUseCategory",
     "OpenClosedStatusNonmotor",
     "SurfaceType",
+    "TrailWidthFeet",
     "ADAAccessible",
     "SegmentLengthMiles",
     "SpecialRestrictionType",
@@ -36,6 +39,7 @@
   "duplicate_object_id_count": 0,
   "missing_values": {
     "OBJECTID": 0,
+    "DNRTrail": 0,
     "TrailNamePrimary": 0,
     "HikingName": 0,
     "FacilityName": 0,
@@ -43,8 +47,10 @@
     "Peninsula": 0,
     "Hiking": 0,
     "TrailApprovalStatus": 0,
+    "TrailUseCategory": 0,
     "OpenClosedStatusNonmotor": 0,
     "SurfaceType": 0,
+    "TrailWidthFeet": 0,
     "ADAAccessible": 0,
     "SegmentLengthMiles": 0,
     "SpecialRestrictionType": 0,
@@ -54,6 +60,9 @@
     "last_edited_date": 0
   },
   "distinct_filter_values": {
+    "DNRTrail": [
+      "DNR Trail"
+    ],
     "Peninsula": [
       "Upper Peninsula"
     ],
@@ -68,6 +77,10 @@
       "Temporarily Closed",
       "Temporarily Closed Due To Bridge Maintenance Or Repair",
       "Temporarily Closed Due To Trail Washout"
+    ],
+    "TrailUseCategory": [
+      "Multi Use Motorized Nonmotorized",
+      "Nonmotorized"
     ],
     "SurfaceType": [
       "-1",
